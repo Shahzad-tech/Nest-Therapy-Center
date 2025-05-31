@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circular background -->
+  <circle cx="60" cy="60" r="58" fill="#E6F7F0"/>
+  
+  <!-- Nest -->
+  <path d="M30 65 C30 45 90 45 90 65 C90 75 80 85 60 85 C40 85 30 75 30 65" fill="#614235"/>
+  <path d="M35 63 C35 48 85 48 85 63 C85 70 75 80 60 80 C45 80 35 70 35 63" fill="#8B5E3C"/>
+  
+  <!-- Duck -->
+  <g transform="translate(45,50)">
+    <!-- Body -->
+    <ellipse cx="15" cy="15" rx="18" ry="15" fill="#FFD93D"/>
+    <!-- Head -->
+    <circle cx="25" cy="8" r="8" fill="#FFD93D"/>
+    <!-- Eye -->
+    <circle cx="27" cy="6" r="2" fill="#000"/>
+    <!-- Beak -->
+    <path d="M32 8 L38 7 L32 10 Z" fill="#FF9F1C"/>
+  </g>
+  
+  <!-- Leaves -->
+  <path d="M85 30 Q90 25 95 30 L90 35 Z" fill="#4CAF50"/>
+  <path d="M75 25 Q80 20 85 25 L80 30 Z" fill="#4CAF50"/>
+  
+  <!-- N.E.S.T text -->
+  <path d="M15 15 L25 15 M20 12 L20 18" fill="none" stroke="#4CAF50" stroke-width="1"/>
+  <path d="M30 15 Q35 15 35 18" fill="none" stroke="#4CAF50" stroke-width="1"/>
+  <path d="M40 15 C45 15 45 18 40 18" fill="none" stroke="#4CAF50" stroke-width="1"/>
+  <path d="M50 15 L50 18 L55 15 L55 18" fill="none" stroke="#4CAF50" stroke-width="1"/>
+</svg>
