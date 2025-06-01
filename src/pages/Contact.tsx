@@ -22,8 +22,7 @@ export default function Contact() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
           className="mx-auto mt-16 grid max-w-4xl grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-2"
-        >
-          <div>
+        >          <div>
             <h3 className="text-2xl font-bold tracking-tight text-gray-900">Get in Touch</h3>
             <dl className="mt-8 space-y-6">
               <div className="flex gap-x-4">
@@ -31,7 +30,8 @@ export default function Contact() {
                   <span className="sr-only">Address</span>
                   <MapPinIcon className="h-7 w-6 text-gray-600" aria-hidden="true" />
                 </dt>
-                <dd>                  <p className="text-gray-600">House 140B, Street 9, Block C B-17</p>
+                <dd>
+                  <p className="text-gray-600">House 140B, Street 9, Block C B-17</p>
                   <p className="text-gray-600">Multi-Gardens, Islamabad</p>
                 </dd>
               </div>
@@ -49,58 +49,21 @@ export default function Contact() {
                 <dt className="flex-none">
                   <span className="sr-only">Contact</span>
                   <ChatBubbleLeftIcon className="h-7 w-6 text-gray-600" aria-hidden="true" />
-                </dt>                <dd>                  <p className="text-gray-600">Phone: 03495119950</p>
+                </dt>
+                <dd>
+                  <p className="text-gray-600">Phone: 03495119950</p>
                   <p className="text-gray-600">Email: nestspeechtherapycenter@gmail.com</p>
                 </dd>
               </div>
             </dl>
-          </div>
-
-          <form className="flex flex-col gap-6">
-            <div>
-              <label htmlFor="name" className="block text-sm font-semibold leading-6 text-gray-900">
-                Name
-              </label>
-              <div className="mt-2.5">
-                <input
-                  type="text"
-                  name="name"
-                  id="name"
-                  className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary-600 sm:text-sm sm:leading-6"
-                />
-              </div>
-            </div>
-            <div>
-              <label htmlFor="email" className="block text-sm font-semibold leading-6 text-gray-900">
-                Email
-              </label>
-              <div className="mt-2.5">
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary-600 sm:text-sm sm:leading-6"
-                />
-              </div>
-            </div>
-            <div>
-              <label htmlFor="message" className="block text-sm font-semibold leading-6 text-gray-900">
-                Message
-              </label>
-              <div className="mt-2.5">
-                <textarea
-                  name="message"
-                  id="message"
-                  rows={4}
-                  className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary-600 sm:text-sm sm:leading-6"
-                />
-              </div>
-            </div>
-            <button type="submit" className="btn-primary self-start">
-              Send Message
-            </button>
-          </form>
-        </motion.div>
+          </div>          {/* Contact form temporarily removed
+          Future implementation will include:
+          - Name input
+          - Email input
+          - Message textarea
+          - Submit button with API integration
+          */}
+          </motion.div>
       </div>
     </div>
   )
