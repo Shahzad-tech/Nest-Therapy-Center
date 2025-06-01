@@ -56,12 +56,15 @@ export default function About() {
                   alt="Sehrish Javaid"
                 />
               </div>
-              <div className="text-center">
-                <h4 className="text-lg font-semibold">Sehrish Javaid</h4>
+              <div className="text-center">                <h4 className="text-lg font-semibold">Sehrish Javaid</h4>
                 <p className="text-gray-600">Speech-Language Pathologist</p>
-                <p className="text-sm text-gray-500 mt-2">
-                  Masters in Speech-Language Pathology
-                </p>
+                <div className="text-sm text-gray-500 mt-2 space-y-1">
+                  <p>Psychologist and Trained Registered Behavior Technician</p>
+                  <p className="flex items-center justify-center">
+                    <span className="w-1.5 h-1.5 bg-gray-300 rounded-full mx-2"></span>
+                  </p>
+                  <p>Masters in Speech-Language Pathology</p>
+                </div>
               </div>
             </div>
           </div>
